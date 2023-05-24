@@ -1,0 +1,40 @@
+.btn_up {
+    position: fixed;
+    bottom: 20px;
+        right: 10px;
+        z-index: 2;
+        color: rgb(43, 42, 42);
+    cursor: pointer;
+        fill: #ff6b08b5;
+        transition: filter 250ms linear;
+
+    
+    
+
+   
+
+    
+
+    &:hover,
+    &:focus {
+        filter: drop-shadow(0 0 7px black);
+    }
+}
+
+.btn_up-icon {
+    width: 30px;
+    height: 30px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
